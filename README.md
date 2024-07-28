@@ -51,7 +51,7 @@ To address the remaining imbalance in the genre and style labels, I chose to ret
 
 ${{\color{magenta}\Huge{\textsf{Efficient\ Net\ vs.\ Vision\ Transformer\ \}}}}\$
 
-In this project, I explored the performance of EfficientNet and Vision Transformer (ViT) models using transfer learning. EfficientNet was chosen for its compact size, efficiency, and strong representation of convolutional neural networks (CNNs). On the other hand, ViT was selected to test the hypothesis that transformers might outperform CNNs in certain tasks.
+In this project, I evaluated the performance of EfficientNet and Vision Transformer (ViT) models using transfer learning. EfficientNet was chosen for its compact size, efficiency, and strong representation of convolutional neural networks (CNNs). Conversely, ViT was selected to explore whether transformers might outperform CNNs for certain tasks. Additionally, I experimented with various image augmentations. However, these experiments were less successful compared to the base models, which is understandable given that altering artwork could significantly change its genre or style.
 
 * **EfficientNet**: This model excelled at predicting the genre of an image but was less effective at predicting the style.
   
@@ -83,6 +83,7 @@ In this project, I explored the performance of EfficientNet and Vision Transform
        </td>
      </tr>
    </table>
+<br/>
    
 * **Vision Transformer**: This model also excelled at predicting the genre of an image and also did better in predicting the style.
   
@@ -115,31 +116,22 @@ In this project, I explored the performance of EfficientNet and Vision Transform
      </tr>
    </table>
 
+The standout performer is the ViT model, which excels even without additional augmentations. This model is currently the one showcased in the [live demo](https://huggingface.co/spaces/AishaE/art_geek).
 
-## Detours ↩️
+## Room for Improvement
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Expand the Dataset: Increasing the amount of data and extending the number of epochs will likely enhance model performance and prediction accuracy.
+* Utilize a Learning Rate Scheduler: Implementing a learning rate scheduler can help fine-tune the learning rate, potentially leading to better convergence.
+* Focus on Specific Artists: Narrowing the dataset to a select group of artists could provide the model with more focused training, improving its ability to classify art more accurately.
+* Incorporate Model Ensembling: Combining predictions from multiple models could lead to more robust and accurate results.
 
-### Executing program
+## Summary
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## How Could I Improve
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+This project has been both a challenging and rewarding journey. I had to step back and reassess the metrics, retrain, refactor the code several times, and all of this was done on a borrowed Google GPU via Google Colab, adding to the adventure. Despite the frustrations, I’m incredibly proud of what I’ve accomplished. There’s something truly satisfying about figuring things out as you go. Thank you for following along, and I look forward to sharing my next project. Happy coding!
 
 ## Author
 
 Aisha Evering  
-<shovon3000g@gmail.com>
-[my portfolio](https://aishaeportfolio.com/)
+[Email](<shovon3000g@gmail.com>) | [Portfolio](https://aishaeportfolio.com/)
 
 
