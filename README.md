@@ -4,7 +4,7 @@
 
 # Art Geek 🎨
 
-I'm diving into the world of art classification with cutting-edge neural networks! This project leverages the diverse [WikiArt dataset](https://huggingface.co/datasets/huggan/wikiart) from Hugging Face to train models that classify artworks into multiple categories, including genre and style. Unlike traditional single-label tasks, my approach tackles the complexity of multi-class classification, predicting multiple attributes of each piece to provide a rich, nuanced understanding of artistic creations.
+I'm diving into the world of art classification with cutting-edge neural networks! This project leverages the diverse [WikiArt dataset](https://huggingface.co/datasets/huggan/wikiart){:target="_blank"} from Hugging Face to train models that classify artworks into multiple categories, including genre and style. Unlike traditional single-label tasks, my approach tackles the complexity of multi-class classification, predicting multiple attributes of each piece to provide a rich, nuanced understanding of artistic creations.
 
 ## Technologies
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
@@ -15,7 +15,7 @@ I'm diving into the world of art classification with cutting-edge neural network
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-## [Live Demo](https://huggingface.co/spaces/AishaE/art_geek)
+## [Live Demo](https://huggingface.co/spaces/AishaE/art_geek){:target="_blank"}
 
 ## 📙 [Jupyter Notebook](https://github.com/AishaEvering/Art_Geek/blob/main/Art_Geek.ipynb)
 
